@@ -27,8 +27,7 @@ define
         has name,
         has students,
         has creationDate,
-        has disciplines,
-        plays want;
+        has disciplines;
     
     trainers sub user,
         key dni,
@@ -38,8 +37,7 @@ define
         has birdhdate,
         has creationDate,
         has disciplines,
-        has yearsExperience,
-        plays want;
+        has yearsExperience;
 
 
     personalSession sub entity,
@@ -49,8 +47,7 @@ define
         has cost,
         has location,
         has students,
-        has disciplines,
-        plays a;
+        has disciplines;
 
     schedule sub entity,
         has creationDate,
@@ -67,8 +64,7 @@ define
         has schedule,
         has maxStudents,
         has minStudents,
-        has location,
-        plays a;
+        has location;
 
     events sub entity,
         has cost,
@@ -77,8 +73,7 @@ define
         has title,
         has sessionDate,
         has location,
-        has trainers,
-        plays a;
+        has trainers;
 
     user sub entity,
         has name,
