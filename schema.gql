@@ -74,10 +74,10 @@ define
         plays trainers,
 
 
-
     willCreate sub relation,
         relates want,
-        relates a;
+        relates a,
+        has name;
 
 
     ruc sub attribute,
