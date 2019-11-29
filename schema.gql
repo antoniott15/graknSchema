@@ -138,7 +138,8 @@ define
     disciplines sub attribute,
         datatype string;
 
-    
+    title sub attribute,
+        datatype string;
     
 
     
