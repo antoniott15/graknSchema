@@ -64,18 +64,6 @@ define
     schedule sub attribute,
         datatype string;
 
-    students sub user,
-        has dni,
-        has name,
-        has birdhdate,
-        has creationDate,
-        has disciplines;
-
-    create sub relation,
-        has duration,
-        relates creator,
-        relates creating;
-
 
     credentials sub entity,
         has email,
@@ -144,4 +132,13 @@ define
         has creationDate;
     
     
+    students sub user,
+        has dni,
+        has name,
+        has birdhdate,
+        has creationDate,
+        has disciplines;
 
+    create sub relation,
+        relates creator,
+        relates creating;
