@@ -29,6 +29,14 @@ define
         has yearsExperience,
         plays want;
 
+
+    students sub entity,
+        has dni,
+        has name,
+        has birdhdate,
+        has creationDate,
+        has disciplines;
+
     personalSession sub entity,
         key trainers,
         has sessionDate,
@@ -38,9 +46,6 @@ define
         has students,
         has disciplines,
         plays a;
-
-    students sub entity,
-        plays user;
 
     schoolSession sub entity,
         has school,
