@@ -111,7 +111,7 @@ define
         has cost,
         has location,
         has students,
-        has disciplines
+        has disciplines,
         plays creating;
 
     schedule sub entity,
