@@ -1,6 +1,5 @@
 define
 
-
     ruc sub attribute,
         datatype string;
 
@@ -82,7 +81,7 @@ define
         has creationDate,
         has disciplines;
     
-    trainers sub user,
+    trainers sub entity,
         relates students,
         plays creator,
         has dni,
@@ -125,14 +124,8 @@ define
         has title,
         has sessionDate,
         has location;
-
-    user sub entity,
-        has name,
-        has credentials,
-        has creationDate;
     
-    
-    students sub user,
+    students sub entity,
         has dni,
         has name,
         has birdhdate,
