@@ -63,7 +63,6 @@ define
     schedule sub attribute,
         datatype string;
 
-
     credentials sub entity,
         has email,
         has password;
@@ -74,7 +73,6 @@ define
         plays creator,
         has ruc,
         has about,
-        has web-page,
         has location,
         has credentials,
         has name,
