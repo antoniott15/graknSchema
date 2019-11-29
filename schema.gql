@@ -75,7 +75,7 @@ define
 
 
 
-    make sub relation,
+    willCreate sub relation,
         relates want,
         relates a;
 
