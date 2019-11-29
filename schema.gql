@@ -40,7 +40,7 @@ define
         plays a;
 
     schoolSession sub entity,
-        key school,
+        has school,
         has trainers,
         has students,
         has cost,
@@ -69,14 +69,13 @@ define
     disciplines sub entity,
         has value;
 
-    students sub entity,
-        plays user;
 
     user sub entity,
         has name,
         has credentials,
         has creationDate,
-        plays trainers;
+        plays trainers,
+        plays students;
 
 
     ruc sub attribute,
