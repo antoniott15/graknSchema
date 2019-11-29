@@ -5,6 +5,11 @@ define
         relates a,
         has name;
 
+    credentials sub entity,
+        has email,
+        has password;
+
+        
     school sub entity,
         key ruc,
         has about,
@@ -68,10 +73,6 @@ define
         has location,
         has trainers,
         plays a;
-
-    credentials sub entity,
-        key email,
-        has password;
 
     user sub entity,
         has name,
