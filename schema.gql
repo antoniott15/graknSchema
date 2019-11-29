@@ -83,7 +83,7 @@ define
         has disciplines;
         
     school sub entity,
-        key ruc,
+        has ruc,
         has about,
         has web-page,
         has location,
@@ -132,10 +132,10 @@ define
     events sub entity,
         has cost,
         has maxTickets,
-        has school,
         has title,
         has sessionDate,
         has location,
+        relates school,
         relates trainers,
         plays creating;
 
