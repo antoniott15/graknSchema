@@ -10,7 +10,7 @@ define
         has password;
 
 
-    students sub entity,
+    students sub user,
         has dni,
         has name,
         has birdhdate,
@@ -30,7 +30,7 @@ define
         has disciplines,
         plays want;
     
-    trainers sub entity,
+    trainers sub user,
         key dni,
         has championshipWon,
         has students,
@@ -83,9 +83,7 @@ define
     user sub entity,
         has name,
         has credentials,
-        has creationDate,
-        plays trainers,
-        plays students;
+        has creationDate;
 
 
     ruc sub attribute,
