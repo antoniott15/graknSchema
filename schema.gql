@@ -9,7 +9,7 @@ define
         has email,
         has password;
 
-        
+
     school sub entity,
         key ruc,
         has about,
@@ -51,6 +51,12 @@ define
         has students,
         has disciplines,
         plays a;
+
+    schedule sub entity,
+        has creationDate,
+        has disciplines,
+        has sessionDate,
+        has duration;
 
     schoolSession sub entity,
         has school,
