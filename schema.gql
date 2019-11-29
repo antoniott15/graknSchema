@@ -76,7 +76,7 @@ define
         has name,
         has credentials,
         has creationDate,
-        plays trainers,
+        plays trainers;
 
 
     ruc sub attribute,
