@@ -88,45 +88,45 @@ define
         has web-page,
         has location,
         has credentials,
-        has trainers,
         has name,
-        has students,
         has creationDate,
         has disciplines,
+        relates students,
+        relates trainers,
         plays creator;
     
     trainers sub user,
-        key dni,
+        has dni,
         has championshipWon,
-        has students,
         has name,
         has birdhdate,
         has creationDate,
         has disciplines,
         has yearsExperience,
+        relates students,
         plays creator;
 
 
     personalSession sub entity,
-        key trainers,
         has sessionDate,
         has duration,
         has cost,
         has location,
-        has students,
         has disciplines,
+        relates students,
+        relates trainers,
         plays creating;
 
     schoolSession sub entity,
-        has school,
-        has trainers,
-        has students,
         has cost,
         has duration,
         has schedule,
         has maxStudents,
         has minStudents,
         has location,
+        relates school,
+        relates trainers,
+        relates students,
         plays creating;
 
     events sub entity,
@@ -136,7 +136,7 @@ define
         has title,
         has sessionDate,
         has location,
-        has trainers,
+        relates trainers,
         plays creating;
 
     user sub entity,
