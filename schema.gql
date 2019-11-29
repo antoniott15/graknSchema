@@ -10,6 +10,13 @@ define
         has password;
 
 
+    students sub entity,
+        has dni,
+        has name,
+        has birdhdate,
+        has creationDate,
+        has disciplines;
+        
     school sub entity,
         key ruc,
         has about,
@@ -34,13 +41,6 @@ define
         has yearsExperience,
         plays want;
 
-
-    students sub entity,
-        has dni,
-        has name,
-        has birdhdate,
-        has creationDate,
-        has disciplines;
 
     personalSession sub entity,
         key trainers,
