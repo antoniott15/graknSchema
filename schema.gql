@@ -70,6 +70,9 @@ define
         has password;
         
     school sub entity,
+        relates students,
+        relates trainers,
+        plays creator,
         has ruc,
         has about,
         has web-page,
@@ -77,54 +80,51 @@ define
         has credentials,
         has name,
         has creationDate,
-        has disciplines,
-        relates students,
-        relates trainers,
-        plays creator;
+        has disciplines;
     
     trainers sub user,
+        relates students,
+        plays creator,
         has dni,
         has championshipWon,
         has name,
         has birdhdate,
         has creationDate,
         has disciplines,
-        has yearsExperience,
-        relates students,
-        plays creator;
+        has yearsExperience;
 
 
     personalSession sub entity,
+        relates students,
+        relates trainers,
+        plays creating,
         has sessionDate,
         has duration,
         has cost,
         has location,
-        has disciplines,
-        relates students,
-        relates trainers,
-        plays creating;
+        has disciplines;
 
     schoolSession sub entity,
+        relates school,
+        relates trainers,
+        relates students,
+        plays creating,
         has cost,
         has duration,
         has schedule,
         has maxStudents,
         has minStudents,
-        has location,
-        relates school,
-        relates trainers,
-        relates students,
-        plays creating;
+        has location;
 
     events sub entity,
+        relates school,
+        relates trainers,
+        plays creating,
         has cost,
         has maxTickets,
         has title,
         has sessionDate,
-        has location,
-        relates school,
-        relates trainers,
-        plays creating;
+        has location;
 
     user sub entity,
         has name,
