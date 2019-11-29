@@ -64,12 +64,15 @@ define
     disciplines sub entity,
         has value;
 
+    students sub entity,
+        plays user;
+
     user sub entity,
         has name,
         has credentials,
         has creationDate,
         plays trainers,
-        plays students;
+
 
 
     create sub relation,
