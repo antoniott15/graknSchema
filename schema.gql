@@ -39,6 +39,9 @@ define
         has disciplines,
         plays a;
 
+    students sub entity,
+        plays user;
+
     schoolSession sub entity,
         has school,
         has trainers,
