@@ -70,11 +70,11 @@ define
     school sub entity,
         relates students,
         relates trainers,
+        relates credentials,
         plays creator,
         has ruc,
         has about,
         has location,
-        has credentials,
         has name,
         has creationDate,
         has disciplines;
