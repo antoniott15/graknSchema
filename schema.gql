@@ -47,7 +47,6 @@ define
         plays a;
 
     events sub entity,
-        key id,
         has cost,
         has maxTickets,
         has school,
@@ -63,11 +62,9 @@ define
 
 
     disciplines sub entity,
-        key id,
         has value;
 
     user sub entity,
-        key id,
         has name,
         has credentials,
         has creationDate,
@@ -125,18 +122,18 @@ define
     minStudents sub attribute,
         datatype long;
     
-    maxTickets sub attribute.
+    maxTickets sub attribute,
         datatype long;
 
     email sub attribute,
         datatype string;
-        
+
     password sub attribute,
         datatype string;
-        
+
     value sub attribute,
         datatype string;
-        
+
     
     
 
