@@ -65,9 +65,12 @@ define
 
     studentsInfo sub attribute,
         datatype string;
-    credentials sub entity,
-        has email,
-        has password;
+
+    email sub attribute,
+        datatype string;
+    
+    password sub attribute,
+        datatype string;
 
 
         
@@ -79,7 +82,8 @@ define
         has ruc,
         has about,
         has name,
-        has credentials,
+        has email,
+        has password,
         plays creator;
     
     trainers sub entity,
@@ -87,7 +91,8 @@ define
         has dni,
         has about,
         has name,
-        has credentials,
+        has email,
+        has password,
         has yearsExperience,
         has championshipWon,
         plays creator;
@@ -133,7 +138,8 @@ define
         has studentsInfo,
         has name,
         has birdhdate,
-        has credentials;
+        has email,
+        has password;
 
 
     create sub relation,
