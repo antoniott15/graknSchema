@@ -68,10 +68,10 @@ define
         has password;
         
     school sub entity,
-        relates students,
-        relates trainers,
-        relates credentials,
         plays creator,
+        has students,
+        has trainers,
+        has credentials,
         has ruc,
         has about,
         has location,
@@ -80,8 +80,8 @@ define
         has disciplines;
     
     trainers sub entity,
-        relates students,
         plays creator,
+        has students,
         has dni,
         has championshipWon,
         has name,
@@ -92,9 +92,9 @@ define
 
 
     personalSession sub entity,
-        relates students,
-        relates trainers,
         plays creating,
+        has students,
+        has trainers,
         has sessionDate,
         has duration,
         has cost,
@@ -102,10 +102,10 @@ define
         has disciplines;
 
     schoolSession sub entity,
-        relates school,
-        relates trainers,
-        relates students,
         plays creating,
+        has trainers,
+        has students,
+        has school,
         has cost,
         has duration,
         has schedule,
@@ -114,9 +114,9 @@ define
         has location;
 
     events sub entity,
-        relates school,
-        relates trainers,
         plays creating,
+        has trainers,
+        has school,
         has cost,
         has maxTickets,
         has title,
