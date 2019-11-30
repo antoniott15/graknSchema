@@ -68,7 +68,7 @@ define
         has password;
         
     school sub entity,
-        plays creator,
+        plays create,
         has students,
         has trainers,
         has credentials,
@@ -80,7 +80,7 @@ define
         has disciplines;
     
     trainers sub entity,
-        plays creator,
+        plays create,
         has students,
         has dni,
         has championshipWon,
@@ -92,7 +92,7 @@ define
 
 
     personalSession sub entity,
-        plays creating,
+        plays create,
         has students,
         has trainers,
         has sessionDate,
