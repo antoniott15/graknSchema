@@ -60,6 +60,9 @@ define
     schedule sub attribute,
         datatype string;
 
+    traineDni sub attribute,
+        datatype string;
+        
     credentials sub entity,
         has email,
         has password;
