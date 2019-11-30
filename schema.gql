@@ -66,6 +66,9 @@ define
     studentsInfo sub attribute,
         datatype string;
 
+    studentDNI sub attribute,
+        datatype string;
+
     email sub attribute,
         datatype string;
     
