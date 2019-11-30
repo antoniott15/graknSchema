@@ -62,7 +62,9 @@ define
 
     traineDni sub attribute,
         datatype string;
-        
+
+    studentsInfo sub attribute,
+        datatype string;
     credentials sub entity,
         has email,
         has password;
@@ -72,7 +74,7 @@ define
     school sub entity,
         has traineDni,
         has studentDNI,
-        has StudentsInfo,
+        has studentsInfo,
         has location,
         has ruc,
         has about,
@@ -93,7 +95,7 @@ define
     personalSession sub entity,
         has traineDni,
         has studentDNI,
-        has StudentsInfo,
+        has studentsInfo,
         has location,
         has schedule,
         has duration,
@@ -103,7 +105,7 @@ define
     schoolSession sub entity,
         has traineDni,
         has studentDNI,
-        has StudentsInfo,
+        has studentsInfo,
         has location,
         has maxStudents,
         has minStudents,
@@ -116,7 +118,7 @@ define
     events sub entity,
         has traineDni,
         has studentDNI,
-        has StudentsInfo,
+        has studentsInfo,
         has location,
         has maxStudents,
         has minStudents,
@@ -128,7 +130,7 @@ define
     
     students sub entity,
         has studentDNI,
-        has StudentsInfo,
+        has studentsInfo,
         has name,
         has birdhdate,
         has credentials;
