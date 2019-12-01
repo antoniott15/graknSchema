@@ -4,27 +4,27 @@
         "location":"asdmaksdad",
         "schedule":"12312413029",
         "title": "sdiajsdiasd",
-        "cost":126
+        "cost":"126"
     },
     {
         "traineDni":"12893011",
         "location":"asdmaksdad",
         "schedule":"9281372637",
         "title": "sdiajsdiasdasda",
-        "cost":3262
+        "cost":"3262"
     },
     {
         "traineDni":"42393011",
         "location":"asdmaksdad",
         "schedule":"98761728",
         "title": "sdiajsdiasdsadas",
-        "cost":3123
+        "cost":"3123"
     },
     {
         "traineDni":"122893011",
         "location":"asdmaksdad",
         "schedule":"9876567",
         "title": "sdiajsdiassadasd",
-        "cost":2231
+        "cost":"2231"
     }
 ]

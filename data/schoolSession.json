@@ -3,89 +3,89 @@
         "traineDni":"72893011",
         "location":"sadasdas",
         "schedule":"asdasdasd",
-        "duration":2131231231,
-        "maxStudents":100,
-        "minStudents":20,
-        "cost":231
+        "duration":"2131231231",
+        "maxStudents":"100",
+        "minStudents":"20",
+        "cost":"231"
     },  {
         "traineDni":"728923011",
         "location":"alksdnasdnasd",
         "schedule":"sdasdas",
-        "duration":12312312,
-        "maxStudents":100,
-        "minStudents":20,
-        "cost":250
+        "duration":"12312312",
+        "maxStudents":"100",
+        "minStudents":"20",
+        "cost":"250"
     },  {
         "traineDni":"97251222",
         "location":"aslkdnasdas",
         "schedule":"aksdaksd",
-        "duration":123124,
-        "maxStudents":120,
-        "minStudents":30,
-        "cost":500
+        "duration":"123124",
+        "maxStudents":"120",
+        "minStudents":"30",
+        "cost":"500"
     },  {
         "traineDni":"722893011",
         "location":"asdpmaspdasd",
         "schedule":"poiuhbjhu",
-        "duration":97,
-        "maxStudents":76,
-        "minStudents":52,
-        "cost": 100
+        "duration":"97",
+        "maxStudents":"76",
+        "minStudents":"52",
+        "cost": "100"
     },  {
         "traineDni":"7293011",
         "location":"oqwneuqbsa",
         "schedule":"lnajsdyasd",
-        "duration":987656,
-        "maxStudents":876,
-        "minStudents":123,
-        "cost":81
+        "duration":"987656",
+        "maxStudents":"876",
+        "minStudents":"123",
+        "cost":"81"
     },  {
         "traineDni":"92893011",
         "location":"1usabytvda6d12",
         "schedule":"oiuygvebnjks",
-        "duration":8765,
-        "maxStudents":21,
-        "minStudents":2,
-        "cost":60
+        "duration":"8765",
+        "maxStudents":"21",
+        "minStudents":"2",
+        "cost":"60"
     },  {
         "traineDni":"42393011",
         "location":"ajhsgda7sdiasd",
         "schedule":"poiaushdban",
-        "duration":4456,
-        "maxStudents":678,
-        "minStudents":100,
-        "cost":100
+        "duration":"4456",
+        "maxStudents":"678",
+        "minStudents":"100",
+        "cost":"100"
     },  {
         "traineDni":"1293893011",
         "location":"!slandlsdasd",
         "schedule":"alksndoiasd",
-        "duration":765,
-        "maxStudents":76,
-        "minStudents":12,
-        "cost":765
+        "duration":"765",
+        "maxStudents":"76",
+        "minStudents":"12",
+        "cost":"765"
     },  {
         "traineDni":"12893011",
         "location":"lksndasnd",
         "schedule":"oabshgdayhu",
-        "duration":56789,
-        "maxStudents":987,
-        "minStudents":12,
-        "cost":98
+        "duration":"56789",
+        "maxStudents":"987",
+        "minStudents":"12",
+        "cost":"98"
     },  {
         "traineDni":"122893011",
         "location":"sabydsaud",
         "schedule":"auiyst",
-        "duration":9876,
-        "maxStudents":345,
-        "minStudents":343,
-        "cost":76
+        "duration":"9876",
+        "maxStudents":"345",
+        "minStudents":"343",
+        "cost":"76"
     },  {
         "traineDni":"121272893011",
         "location":"p89y786521",
         "schedule":"hsagdsa",
-        "duration":276,
-        "maxStudents":123,
-        "minStudents":12,
-        "cost":100
+        "duration":"276",
+        "maxStudents":"123",
+        "minStudents":"12",
+        "cost":"100"
     }
 ]

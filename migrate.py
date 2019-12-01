@@ -15,7 +15,7 @@ def build_phone_call_graph(inputs, data_path, keyspace_name):
 def load_data_into_grakn(input, session):
     items = parse_data_to_dictionaries(input)
 
-    for item in items:  # 2
+    for item in items:  
         with session.transaction().write() as transaction:  
             graql_insert_query = input["template"](item) 
             print("Executing Graql Query: " + graql_insert_query)
@@ -105,6 +105,10 @@ def parse_data_to_dictionaries(input):
 
 
 Inputs = [
+     {
+        "file": "students",
+        "template": create_template
+    },
     {
         "file": "school",
         "template": school_template
@@ -124,10 +128,6 @@ Inputs = [
     {
         "file": "events",
         "template": events_template
-    },
-    {
-        "file": "students",
-        "template": create_template
     },
     {
         "file": "create",
