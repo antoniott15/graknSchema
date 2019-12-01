@@ -105,9 +105,17 @@ def parse_data_to_dictionaries(input):
 
 
 Inputs = [
-     {
+    {
+        "file": "trainer",
+        "template": trainer_template
+    },
+    {
         "file": "students",
-        "template": create_template
+        "template": students_template
+    },
+    {
+        "file": "events",
+        "template": events_template
     },
     {
         "file": "school",
@@ -118,16 +126,8 @@ Inputs = [
         "template": personalSession
     },
     {
-        "file": "trainer",
-        "template": trainer_template
-    },
-    {
         "file": "schoolSession",
         "template": schoolSession_template
-    },
-    {
-        "file": "events",
-        "template": events_template
     },
     {
         "file": "create",
