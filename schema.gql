@@ -13,7 +13,7 @@ define
         datatype string;
 
     creationDate sub attribute,
-        datatype date;
+        datatype string;
     
     dni sub attribute,
         datatype string;
@@ -22,7 +22,7 @@ define
         datatype string;
 
     birdhdate sub attribute,
-        datatype date;
+        datatype string;
 
     yearsExperience sub attribute,
         datatype string;
@@ -31,7 +31,7 @@ define
         datatype string;
 
     sessionDate sub attribute,
-        datatype date;
+        datatype string;
 
     cost sub attribute,
         datatype string;
