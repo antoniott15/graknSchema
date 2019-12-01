@@ -31,7 +31,7 @@ def school_template(school):
         school["traineDni"] + '", has studentDNI "'+ school["studentDNI"] + \
             '", has studentsInfo "'+school["studentsInfo"]+'", has location "'+\
                 school["location"] + '", has ruc "' + school["ruc"] + '", has about "'+\
-                    school["about"] + '", has name "' + school["name"] + '", has email' +\
+                    school["about"] + '", has name "' + school["name"] + '", has email "' +\
                         school["email"] + '", has password "' + school["password"] + '";'
     return graql_insert_query
 
