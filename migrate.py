@@ -2,18 +2,18 @@ from grakn.client import GraknClient
 import ijson
 
 
-def build_phone_call_graph(inputs, data_path, keyspace_name):
+def building(inputs, data_path, keyspace_name):
     with GraknClient(uri="localhost:48555") as client:  
         with client.session(keyspace=keyspace_name) as session:  
             for input in inputs:
                 input["file"] = input["file"].replace(data_path, "")  
                 input["file"] = data_path + input["file"]  
                 print("Loading from [" + input["file"] + ".json] into Grakn ...")
-                load_data_into_grakn(input, session)
+                loading(input, session)
 
 
-def load_data_into_grakn(input, session):
-    items = parse_data_to_dictionaries(input)
+def loading(input, session):
+    items = parsing(input)
 
     for item in items:  
         with session.transaction().write() as transaction:  
@@ -96,7 +96,7 @@ def create_template(create):
     return graql_insert_query
     
 
-def parse_data_to_dictionaries(input):
+def parsing(input):
     items = []
     with open(input["file"] + ".json") as data:
         for item in ijson.items(data, "item"):
@@ -136,4 +136,4 @@ Inputs = [
 ]
 
 if __name__ == "__main__":
-    build_phone_call_graph(inputs=Inputs, data_path="./data/", keyspace_name = "thai")
+    building(inputs=Inputs, data_path="./data/", keyspace_name = "thai")
