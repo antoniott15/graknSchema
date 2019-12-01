@@ -8,7 +8,7 @@ def build_phone_call_graph(inputs, data_path, keyspace_name):
             for input in inputs:
                 input["file"] = input["file"].replace(data_path, "")  
                 input["file"] = data_path + input["file"]  
-                print("Loading from [" + input["file"] + ".csv] into Grakn ...")
+                print("Loading from [" + input["file"] + ".json] into Grakn ...")
                 load_data_into_grakn(input, session)
 
 
