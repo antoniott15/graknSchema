@@ -1,0 +1,38 @@
+[
+    {
+        "traineDni":"92893011",
+        "studentDNI":"721561781",
+        "studentsInfo":"aslkdaosda",
+        "location":"asdmaksdad",
+        "schedule":"12312413029",
+        "duration": 1823712,
+        "cost":126
+    },
+    {
+        "traineDni":"12893011",
+        "studentDNI":"87615267",
+        "studentsInfo":"aslkdaosda",
+        "location":"asdmaksdad",
+        "schedule":"9281372637",
+        "duration": 123123,
+        "cost":326
+    },
+    {
+        "traineDni":"42393011",
+        "studentDNI":"7625171",
+        "studentsInfo":"aslkdaosda",
+        "location":"asdmaksdad",
+        "schedule":"98761728",
+        "duration": 81273,
+        "cost":132
+    },
+    {
+        "traineDni":"122893011",
+        "studentDNI":"8172617",
+        "studentsInfo":"aslkdaosda",
+        "location":"asdmaksdad",
+        "schedule":"9876567",
+        "duration": 21732873,
+        "cost":62
+    }
+]

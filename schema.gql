@@ -115,21 +115,17 @@ define
         has studentDNI,
         has studentsInfo,
         has location,
+        has schedule,
+        has duration,
         has maxStudents,
         has minStudents,
-        has duration,
-        has schedule,
         has cost,
         plays creating;
     
 
     events sub entity,
         has traineDni,
-        has studentDNI,
-        has studentsInfo,
         has location,
-        has maxStudents,
-        has minStudents,
         has title,
         has schedule,
         has cost,
@@ -148,3 +144,6 @@ define
     create sub relation,
         relates creator,
         relates creating;
+
+commit
+
