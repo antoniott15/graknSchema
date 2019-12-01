@@ -19,31 +19,31 @@ define
         datatype string;
 
     championshipWon sub attribute,
-        datatype int;
+        datatype long;
 
     birdhdate sub attribute,
         datatype date;
 
     yearsExperience sub attribute,
-        datatype int;
+        datatype long;
 
     duration sub attribute,
-        datatype int;
+        datatype long;
 
     sessionDate sub attribute,
         datatype date;
 
     cost sub attribute,
-        datatype int;
+        datatype long;
 
     maxStudents sub attribute,
-        datatype int;
+        datatype long;
 
     minStudents sub attribute,
-        datatype int;
+        datatype long;
     
     maxTickets sub attribute,
-        datatype int;
+        datatype long;
 
     email sub attribute,
         datatype string;
