@@ -110,12 +110,12 @@ Inputs = [
         "template": school_template
     },
     {
-        "file": "trainer",
-        "template": trainer_template
-    },
-    {
         "file": "personalSession",
         "template": personalSession
+    },
+    {
+        "file": "trainer",
+        "template": trainer_template
     },
     {
         "file": "schoolSession",
