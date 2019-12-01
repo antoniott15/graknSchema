@@ -97,8 +97,7 @@ define
         has email,
         has password,
         has yearsExperience,
-        has championshipWon,
-        plays creator;
+        has championshipWon;
 
     personalSession sub entity,
         has traineDni,
