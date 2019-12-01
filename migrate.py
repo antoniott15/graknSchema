@@ -40,7 +40,7 @@ def trainer_template(trainers):
         trainers["traineDni"] + '", has dni "'+ trainers["dni"] + \
             '", has about "'+trainers["about"]+'", has name "'+\
                 trainers["name"] + '", has email "' + trainers["email"] + '", has password "'+\
-                    trainers["password"] + '", has yearsExperience "' + trainers["yearsExperience"] + '", has championshipWon ' +\
+                    trainers["password"] + '", has yearsExperience "' + trainers["yearsExperience"] + '", has championshipWon "' +\
                         trainers["championshipWon"] +'";'
     return graql_insert_query
 
