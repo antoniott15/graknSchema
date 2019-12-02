@@ -13,7 +13,6 @@ def getLocationEventQuery(question, transaction):
     query = [
         'match',
         '  $events isa event, has name "thailand";',
-        '  (creator: $trainer, creating: $event) isa event;',
         '  $name == "thailand',
         'get $location;'
     ]
